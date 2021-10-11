@@ -16,5 +16,5 @@ This API will be helpful if you are looking for a Graphic Card's:
 The API currently **DOES NOT** do anything else other than give you
 this information. I want to look into having it add in your custoemr
 information and make a purchase for you when a Graphics Card comes in
-stock.
+stock. 
 
