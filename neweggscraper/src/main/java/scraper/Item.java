@@ -4,12 +4,19 @@ public class Item {
     private String url;
     private String itemName;
     private Double price;
-    private String specs;
     private Boolean inStock;
 
-    public Item(String url, String itemName, Double price,
-                String specs, Boolean inStock) {
-        
+    // Constructor with parameters
+    public Item(String url, String itemName, Double price, Boolean inStock) {
+        this.url = url;
+        this.itemName = itemName;
+        this.price = price;
+        this.inStock = inStock;
+    }
+
+    // Non-parameter constructor to create new Item object and use getters/setters to set properties
+    public Item() {
+
     }
 
     // Getters to return information of item to object
@@ -23,10 +30,6 @@ public class Item {
 
     public Double getPrice() {
         return price;
-    }
-
-    public String getSpecs() {
-        return specs;
     }
 
     public Boolean getInStock() {
@@ -44,10 +47,6 @@ public class Item {
 
     public void setPrice(Double price) {
         this.price = price;
-    }
-
-    public void setSpecs(String specs) {
-        this.specs = specs;
     }
 
     public void setInStock(Boolean inStock) {
