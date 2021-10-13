@@ -16,7 +16,7 @@ public class Item {
 
     // Non-parameter constructor to create new Item object and use getters/setters to set properties
     public Item() {
-
+        
     }
 
     // Getters to return information of item to object
